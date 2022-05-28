@@ -1,0 +1,104 @@
+@import '~antd/dist/antd.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+}
+
+.layout {
+  min-height: 100vh !important;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.height100 {
+  height: 100vh;
+}
+
+.alert {
+  color: red;
+  text-align: "center" !important;
+  font-style: italic;
+}
+
+.alert::before {
+  content: "*";
+}
+
+.error {
+  background-color: pink;
+  color: red;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.allLoadedCard {
+  background: rgb(230, 230, 230) !important;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid rgb(180, 180, 255, 0.8);
+}
+
+.breadcrumb {
+  margin: 20px !important;
+}
+
+.breadcrumb__item {
+  font-size: 15px !important;
+}
+
+.btn {
+  color: #3B82F6;
+}
+
+.sameco {
+  background-color: #3B82F6;
+}
+
+.btndng {
+  color: #FF4D4F;
+}
+
+.anticon-delete {
+  color: #FF4D4F;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
